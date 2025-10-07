@@ -5,6 +5,9 @@ choice=input("Enter choice (+,-,*,/)")
 def subtract(i, j):
     return i - j
 
+def miltiply(a, b):
+    return a * b
+
 if choice=='+':
     print(f"Result:{add(num1,num2)}")
 elif choice=='-':
