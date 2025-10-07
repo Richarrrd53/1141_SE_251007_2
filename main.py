@@ -8,6 +8,12 @@ def subtract(i, j):
 def miltiply(a, b):
     return a * b
 
+def divide(a, b):
+    if b == 0:
+        return "Invalid value" 
+    else:
+        return a / b
+
 if choice=='+':
     print(f"Result:{add(num1,num2)}")
 elif choice=='-':
