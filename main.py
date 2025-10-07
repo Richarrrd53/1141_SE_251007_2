@@ -2,8 +2,11 @@ num1=float(input("Enter first number:"))
 num2=float(input("Enter second number:"))
 choice=input("Enter choice (+,-,*,/)")
 
-def miltiply(a, b):
-    return a * b
+def divide(a, b):
+    if b == 0:
+        return "Invalid value" 
+    else:
+        return a / b
 
 if choice=='+':
     print(f"Result:{add(num1,num2)}")
