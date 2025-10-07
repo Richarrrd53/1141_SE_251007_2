@@ -2,6 +2,9 @@ num1=float(input("Enter first number:"))
 num2=float(input("Enter second number:"))
 choice=input("Enter choice (+,-,*,/)")
 
+def miltiply(a, b):
+    return a * b
+
 if choice=='+':
     print(f"Result:{add(num1,num2)}")
 elif choice=='-':
