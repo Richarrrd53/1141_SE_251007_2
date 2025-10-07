@@ -2,8 +2,8 @@ num1=float(input("Enter first number:"))
 num2=float(input("Enter second number:"))
 choice=input("Enter choice (+,-,*,/)")
 
-def subtract(i, j):
-    return i - j
+def add(i, j):
+    return i + j
 
 if choice=='+':
     print(f"Result:{add(num1,num2)}")
